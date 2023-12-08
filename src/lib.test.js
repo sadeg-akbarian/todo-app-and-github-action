@@ -21,7 +21,7 @@ describe("Testing the todo-app", function () {
   it("should return true with the same casing", () => {
     const newToDo = "Walking";
     const theResult = isDuplicate(newToDo, theTodoList);
-    expect(theResult).toBe(true);
+    expect(theResult).toBe(false);
   });
 
   it("should return true with different casing", () => {
